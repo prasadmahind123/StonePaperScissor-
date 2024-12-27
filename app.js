@@ -75,5 +75,6 @@ function clearScreen(){
     compScore.innerText = compPoint;
     msg.innerText = "Play Game";
     result.style.backgroundColor = "#fff";
+    restart.style.backgroundColor ="#0A0A0A"
 }
 restart.addEventListener("click", clearScreen);
