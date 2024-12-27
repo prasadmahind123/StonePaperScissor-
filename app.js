@@ -14,7 +14,6 @@ const compScore = document.querySelector("#comp-score");
 const getCompChoice = () => {
     const options = ["stone", "paper", "Scissors"];
     const randIdx = Math.floor(Math.random() *3);
-    console.log(options[randIdx]);
     return options[randIdx];
 }
 const drawGame = () => {
