@@ -6,7 +6,6 @@ const msg = document.querySelector("#res");
 const result = document.querySelector(".result");
 
 const restart = document.querySelector("#reset");
-const restart1 = document.querySelector(". restart");
 
 
 const userScore = document.querySelector("#user-score");
@@ -76,6 +75,5 @@ function clearScreen(){
     compScore.innerText = compPoint;
     msg.innerText = "Play Your Move";
     result.style.backgroundColor = "#fff";
-    restart1.style.opacity = 1;
 }
 restart.addEventListener("click", clearScreen);
