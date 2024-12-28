@@ -74,7 +74,7 @@ function clearScreen(){
     compPoint = 0;
     userScore.innerText = userPoint;
     compScore.innerText = compPoint;
-    msg.innerText = "Play Game";
+    msg.innerText = "Play Your Move";
     result.style.backgroundColor = "#fff";
     restart1.style.opacity = 1;
 }
